@@ -1,4 +1,43 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("darova iz isp-243");
-Console.WriteLine("avtor vlad morozov");
-Console.WriteLine("god 2026");
+﻿// int age = 20;
+// double gpa = 4.5;
+// bool isStudent = true;
+// string name = "Ivan";
+// Console.WriteLine(name);
+// Console.WriteLine(age);
+// Console.WriteLine(gpa);
+// Console.WriteLine(isStudent);
+// var sity = "Moscow";
+// var year = 2026;
+// var pi = 3.14;
+// var isActive = true;
+// string myName = "Ivan";
+// int myAge = 20;
+// string myGroup = "isp-243";
+// System.Console.WriteLine($"меня зовут {myName}, мне {myAge} let, я учусь в группе {myGroup}.");
+// System.Console.Write("введите ваше имя: ");
+// string name2 = Console.ReadLine();
+// System.Console.WriteLine($"hello, {name2}");
+// System.Console.Write("введите ваш возраст: ");
+// string input = Console.ReadLine();
+// int age2 = int.Parse(input);
+// System.Console.WriteLine($"через 10 лет вам будет {age2 + 10} лет");
+
+
+
+string firstName = "ivan";
+string lastName = "ivanov";
+string group = "isp-243";
+int birthYear = 2007;
+double gpa = 4.5;
+bool hasScholarship = true;
+int currentYear = 2026;
+int age = currentYear - birthYear;
+System.Console.WriteLine("студ удостоверение");
+System.Console.WriteLine($"name: {firstName} {lastName}");
+System.Console.WriteLine($"group: {group}");
+System.Console.WriteLine($"age: {age}");
+System.Console.WriteLine($"ср балл: {gpa}");
+System.Console.WriteLine($"степуха: {hasScholarship}");
+System.Console.Write("\n введите ваш любимый предмет: ");
+string subject = Console.ReadLine();
+System.Console.WriteLine($"Отлично! {firstName} loved {subject}");
